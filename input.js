@@ -18,6 +18,12 @@ const handleUserInput = function (data) {
   if (data === "d") {
     connection.write("Move: right");
   }
+  if (data === "h") {
+    connection.write("Say: Hello");
+  }
+  if (data === "z") {
+    connection.write("Say: Gotta catch them all!");
+  }
 };
 
 const setupInput = function (conn) {
